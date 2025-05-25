@@ -140,23 +140,6 @@ function RegistrationPage() {
                     >
                         Register
                     </Button>
-                    <Button
-                        style={{
-                            padding: '12px',
-                            backgroundColor: '#3498db', // Blue background
-                            color: 'white',
-                            border: 'none',
-                            borderRadius: '5px',
-                            cursor: 'pointer',
-                            fontSize: '1.1em',
-                            transition: 'background-color 0.3s',
-                            marginTop: '10px' // Add some space above this button
-                        }}
-                        onMouseOver={(e) => e.target.style.backgroundColor = '#5dade2'} // Lighter blue on hover
-                        onMouseOut={(e) => e.target.style.backgroundColor = '#3498db'} // Original blue on mouse out
-                    >
-                        Register with SSO
-                    </Button>
                 </div>
                 <div style={{ marginTop: '20px', textAlign: 'center', color: '#7f8c8d' }}>
                     <p><span style={{ color: '#27ae60' }}>🔒</span> End-to-end encryption</p>
