@@ -1,0 +1,43 @@
+{
+  "name": "secure-chat-custodia",
+  "version": "1.0.0",
+  "main": "src/electron.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "electron-dev": "concurrently \"cross-env BROWSER=none npm start\" \"wait-on http://localhost:3388 && electron .\"",
+    "package": "electron-builder build --publish never"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "cross-env": "^7.0.3",
+    "electron": "^36.2.0",
+    "electron-builder": "^24.13.3",
+    "react-router-dom": "^6.30.0",
+    "wait-on": "^7.2.0"
+  },
+  "dependencies": {
+    "axios": "^1.9.0",
+    "crypto-browserify": "^3.12.1",
+    "crypto-js": "^4.2.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-scripts": "5.0.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
