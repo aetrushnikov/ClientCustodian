@@ -8,7 +8,6 @@
     "electron-dev": "concurrently \"cross-env BROWSER=none npm start\" \"wait-on http://localhost:3388 && electron .\"",
     "package": "electron-builder build --publish never"
   },
-
   "keywords": [],
   "author": "",
   "license": "ISC",
